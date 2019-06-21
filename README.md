@@ -18,7 +18,8 @@
     59 23 * * * /web/cmd/backup/daily.mega.sh >/dev/null 2>&1
     ```
 
-## 其他，安装 `mega-cmd` 部分库文件缺失的问题,以 `centos7` 为例
+## 其他:
+安装 `mega-cmd` 部分库文件缺失的问题,以 `centos7` 为例
 ```
 error: Failed dependencies:
 	libcares.so.2()(64bit) is needed by megacmd-1.1.0-1.2.x86_64
