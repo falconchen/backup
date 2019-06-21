@@ -4,9 +4,9 @@
 # 对特定文件夹每日增量备份
 
 #获取当前目录
-BASEDIR=$(dirname "$0")
-#echo "$BASEDIR"
-CONFIG=$BASEDIR/config.sh
+SCRIPT_DIR=$(dirname "$0")
+#echo "$SCRIPT_DIR"
+CONFIG=$SCRIPT_DIR/config.sh
 
 if [ ! -f $CONFIG ];then
     echo ${CONFIG} not exist!
@@ -16,8 +16,8 @@ source $CONFIG
 
 
 #Create Today BackupDirectory
-if [ ! -d $BACK_BASE_DIR ];then
-    mkdir -p $BACK_BASE_DIR
+if [ ! -d $BACKUP_DAILY_BASE_DIR ];then
+    mkdir -p $BACKUP_DAILY_BASE_DIR
 fi
 
 
@@ -26,7 +26,7 @@ if [ ! -d $BACK_TODAY_DIR ];
 then
     mkdir -p $BACK_TODAY_DIR
 else
-    mv $BACK_TODAY_DIR $BACK_BASE_DIR/`date -r $BACK_TODAY_DIR "+%Y-%m-%d_%H%M%S"`
+    mv $BACK_TODAY_DIR $BACKUP_DAILY_BASE_DIR/`date -r $BACK_TODAY_DIR "+%Y-%m-%d_%H%M%S"`
     mkdir -p $BACK_TODAY_DIR
 fi
 echo "Start Time : `date +%F" "%H:%M:%S`" >> $BACKUP_LOG
@@ -46,5 +46,5 @@ echo "Stop Time : `date +%F" "%H:%M:%S`" >> $BACKUP_LOG
 echo "###############################################################" >> $BACKUP_LOG
 echo "Delete expire data." >> $BACKUP_LOG
 echo "Start Time : `date +%F" "%H:%M:%S`" >> $BACKUP_LOG
-find ${BACK_BASE_DIR} -mtime +${EXPIRE_DAYS} | xargs rm -rf
+find ${BACKUP_DAILY_BASE_DIR} -mtime +${EXPIRE_DAYS} | xargs rm -rf
 echo "Stop Time : `date +%F" "%H:%M:%S`" >> $BACKUP_LOG
