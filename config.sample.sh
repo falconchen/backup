@@ -30,3 +30,8 @@ EXPIRE_DB_DAYS=7 #保留备份天数
 BACKUP_MYSQL_BASE_DIR=/home/backups/mysql #mysql备份存放文件夹
 BACKUP_MYSQL_DATE_DIR=$BACKUP_MYSQL_BASE_DIR/$TODAY # mysql完整备份存放的按日期存放目录
 BACKUP_MYSQL_LOG=$BACKUP_MYSQL_DATE_DIR/mysql_${TODAY}.log # mysql备份日志,存放于备份目录下
+
+
+#mega 远程目录，需要事先建立
+MEGA_DAILY_DIR=/sites/txhost/daily
+MEGA_MYSQL_DIR=/sites/txhost/mysql
