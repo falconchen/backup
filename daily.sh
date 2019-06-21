@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+# Author: falcon
+# 对特定文件夹每日增量备份
 
-#
+#获取当前目录
 BASEDIR=$(dirname "$0")
 #echo "$BASEDIR"
 CONFIG=$BASEDIR/config.sh
@@ -12,9 +14,6 @@ if [ ! -f $CONFIG ];then
 fi
 source $CONFIG
 
-
-#每日增量备份
-#备份upload和database
 
 #Create Today BackupDirectory
 if [ ! -d $BACK_BASE_DIR ];then
