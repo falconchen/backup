@@ -40,11 +40,3 @@ echo "finishing backup directory ${BACKUP_FROM_DIRS[$name]} to ${name}.tgz" >> $
 done
 
 echo "Stop Time : `date +%F" "%H:%M:%S`" >> $BACKUP_DAILY_LOG
-
-
-#Delete old data
-echo "###############################################################" >> $BACKUP_DAILY_LOG
-echo "Delete expire data." >> $BACKUP_DAILY_LOG
-echo "Start Time : `date +%F" "%H:%M:%S`" >> $BACKUP_DAILY_LOG
-find ${BACKUP_DAILY_BASE_DIR} -mtime +${EXPIRE_DAYS} | xargs rm -rf
-echo "Stop Time : `date +%F" "%H:%M:%S`" >> $BACKUP_DAILY_LOG
