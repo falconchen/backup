@@ -32,7 +32,7 @@ for db in ${MYSQL_DB[@]};do
 tar zcf ${TODAY}_${db}_full_back.sql.tar.gz ${TODAY}_${db}_full_back.sql
 rm -rf ${TODAY}_${db}_full_back.sql
 done
-
+rm -rf $BACKUP_MYSQL_BASE_DIR/today
 ln -s $BACKUP_MYSQL_DATE_DIR $BACKUP_MYSQL_BASE_DIR/today 
 echo "Stop Time : `date +%F" "%H:%M:%S`" >> $BACKUP_MYSQL_LOG
 
