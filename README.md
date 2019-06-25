@@ -3,7 +3,7 @@
 自用备份脚本 ,支持全量备份,增量备份,将备份内容存储到[mega网盘](https://mega.nz)
 
 - `daily.sh` : 每日增量备份特定目录
-- `daily.mega.sh` 每日增量备份特定目录并上传到 mega网盘. 请先安装 [mega-cmd](https://mega.nz/cmd) ,文档见 <https://github.com/meganz/MEGAcmd>
+- `daily.mega.sh` 每日增量备份特定目录并上传到 mega网盘. 请先安装 [mega-cmd](https://mega.nz/cmd) ,文档见 <https://github.com/meganz/MEGAcmd> ，并且登录帐户。
 - `full.sh` 全量备份
 -  `mysql.mega.once.sh` 定时备份mysql导出的SQL文件至mega网盘, 只需运行一次.
 
@@ -19,6 +19,11 @@
     ```
 
 ## 其他:
+使用命令行，登陆 `mega.nz`。可以选择交互模式与非交互方式。这里使用非交互方式，执行：
+```
+mega-login  your-email your-password
+```
+
 安装 `mega-cmd` 部分库文件缺失的问题,以 `centos7` 为例
 ```
 error: Failed dependencies:

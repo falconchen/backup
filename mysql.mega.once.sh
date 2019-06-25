@@ -23,4 +23,4 @@ else
   exit 2
 fi
 
-mega-backup -c ${BACKUP_MYSQL_BASE_DIR}/today ${MEGA_MYSQL_DIR}  --period="59 59 15 * * *" --num-backups=${EXPIRE_DB_DAYS}
+mega-backup ${BACKUP_MYSQL_BASE_DIR}/today ${MEGA_MYSQL_DIR}  --period="59 59 15 * * *" --num-backups=${EXPIRE_DB_DAYS}
