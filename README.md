@@ -19,12 +19,34 @@
     ```
 
 ## 其他:
-使用命令行，登陆 `mega.nz`。可以选择交互模式与非交互方式。这里使用非交互方式，执行：
+
+### mega初始化登录，使用命令行，登陆 `mega.nz`。可以选择交互模式与非交互方式。这里使用非交互方式，执行：
 ```
 mega-login  your-email your-password
 ```
 
-安装 `mega-cmd` 部分库文件缺失的问题,以 `centos7` 为例
+### mega列出备份任务
+
+``` 
+mega-backup -l
+```
+输出
+```
+TAG   LOCALPATH                                                    REMOTEPARENTPATH                                                     STATUS
+5     /backups/mysql/2019-06-21                                    /sites/txhost/mysql
+```
+### mega取消备份任务```mega-backup -d TAG```
+
+按上面的输出任务tag是 `5`, 因此取消上述任务为：
+```
+mega-backup -d 5
+```
+成功取消
+```
+Backup removed succesffuly: 5
+```
+
+### 安装 `mega-cmd` 部分库文件缺失的问题,以 `centos7` 为例
 ```
 error: Failed dependencies:
 	libcares.so.2()(64bit) is needed by megacmd-1.1.0-1.2.x86_64
