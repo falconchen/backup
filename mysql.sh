@@ -7,7 +7,6 @@
 SCRIPT_DIR=$(dirname "$0")
 #echo "$SCRIPT_DIR"
 CONFIG=$SCRIPT_DIR/config.sh
-BACKUP_DB_TODAY_DIR=$BACKUP_MYSQL_BASE_DIR/today
 
 if [ ! -f $CONFIG ];then
     echo ${CONFIG} not exist!
@@ -34,9 +33,11 @@ tar zcf ${TODAY}_${db}_full_back.sql.tar.gz ${TODAY}_${db}_full_back.sql
 rm -rf ${TODAY}_${db}_full_back.sql
 done
 
+#copy to backup dir
+BACKUP_DB_TODAY_DIR=$BACKUP_MYSQL_BASE_DIR/today
 if [ ! -d $BACKUP_DB_TODAY_DIR ];
-then
-  mkdir -p $BACKUP_DB_TODAY_DIR;
+then  
+  mkdir -p $BACKUP_DB_TODAY_DIR
 else    
   rm -rf $BACKUP_DB_TODAY_DIR/*  
 fi
