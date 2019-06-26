@@ -35,7 +35,20 @@ echo "Start Time : `date +%F" "%H:%M:%S`" >> $BACKUP_DAILY_LOG
 #backup files 
 for name in ${!BACKUP_FROM_DIRS[@]}; do 
 #printf "%s: %s\n" $name ${BACKUP_FROM_DIRS[$name]}; 
+
+if [ ! -d ${BACKUP_FROM_DIRS[$name]} ];
+then  
+  echo "skip not exist dir ${BACKUP_FROM_DIRS[$name]}"  >> $BACKUP_DAILY_LOG
+  continue
+fi
+
 cd ${BACKUP_FROM_DIRS[$name]}
+if [ "`ls`" == "" ]
+then
+    echo "skip empty dir ${BACKUP_FROM_DIRS[$name]}"  >> $BACKUP_DAILY_LOG
+    continue
+fi
+
 tar czvf $BACKUP_TODAY_DIR/$name.${TODAY}.tgz -C ${BACKUP_FROM_DIRS[$name]} `find * -mtime -1 -type f -print` 1 >>$BACKUP_DAILY_LOG 2>>$BACKUP_DAILY_LOG
 echo "finishing backup directory ${BACKUP_FROM_DIRS[$name]} to ${name}.tgz" >> $BACKUP_DAILY_LOG
 done

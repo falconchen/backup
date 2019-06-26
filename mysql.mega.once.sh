@@ -16,7 +16,7 @@ fi
 source $CONFIG
 
 BACKUP_DB_TODAY_DIR=$BACKUP_MYSQL_BASE_DIR/today
-if [ ! -d $BACKUP_DB_TODAY_DIR ];
+if [ ! -d $BACKUP_DB_TODAY_DIR ]
 then  
   mkdir -p $BACKUP_DB_TODAY_DIR
 fi
