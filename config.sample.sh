@@ -35,3 +35,6 @@ BACKUP_MYSQL_LOG=$BACKUP_MYSQL_DATE_DIR/mysql_${TODAY}.log # mysql备份日志,�
 #mega 远程目录，需要事先建立
 MEGA_DAILY_DIR=/sites/txhost/daily
 MEGA_MYSQL_DIR=/sites/txhost/mysql
+
+#坚果云备份目录，事先建立并连接
+JGY_MYSQL_DIR=/data/webdav/jianguoyun/mysql
