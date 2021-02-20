@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2020-10-09T09:44:13.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="GCmiszH_E4EK8o2FK8eJ" version="13.7.9" type="github">
+  <diagram id="uOGz-LQeJaGFvyRrEOuk" name="第 1 页">
+    <mxGraphModel dx="946" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-1" value="&lt;font color=&quot;#0085fc&quot;&gt;Home&lt;/font&gt; / &lt;font color=&quot;#0085fc&quot;&gt;Library&lt;/font&gt; / Data" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#E9ECEF;fontColor=#6C757D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=14;spacing=10;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="90" width="799" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-2" value="First slide" style="html=1;shadow=0;dashed=0;strokeColor=none;strokeWidth=1;fillColor=#777777;fontColor=#555555;whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;fontSize=40;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="150" width="800" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-3" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=4;shape=mxgraph.ios7.misc.more;strokeColor=#a0a0a0;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry x="1" y="0.5" width="7" height="14" relative="1" as="geometry">
+            <mxPoint x="-50" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-4" value="" style="flipH=1;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=4;shape=mxgraph.ios7.misc.more;strokeColor=#a0a0a0;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry y="0.5" width="7" height="14" relative="1" as="geometry">
+            <mxPoint x="43" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-5" value="" style="html=1;shadow=0;strokeColor=none;fillColor=#ffffff;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry x="0.5" y="1" width="30" height="4" relative="1" as="geometry">
+            <mxPoint x="-50" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-6" value="" style="html=1;shadow=0;strokeColor=none;fillColor=#BBBBBB;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry x="0.5" y="1" width="30" height="4" relative="1" as="geometry">
+            <mxPoint x="-15" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-7" value="" style="html=1;shadow=0;strokeColor=none;fillColor=#BBBBBB;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry x="0.5" y="1" width="30" height="4" relative="1" as="geometry">
+            <mxPoint x="20" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;First slide label&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Nulla vitae elit libero, a pharetra augue mollis interdum." style="html=1;shadow=0;strokeColor=none;fillColor=none;resizeWidth=1;fontColor=#FFFFFF;fontSize=14;" parent="oA7r6mGgum4NCV3HxXCF-2" vertex="1">
+          <mxGeometry y="1" width="800" height="60" relative="1" as="geometry">
+            <mxPoint y="-90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-9" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.feedburner;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="50" y="10" width="68.4" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-10" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.app_store;fillColor=#000000;strokeColor=none;rounded=0;sketch=0;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="480" y="480" width="131.2" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-12" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.google_play;fillColor=#000000;rounded=0;sketch=0;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="300" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="550" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-16" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-15" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-17" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#666666;html=1;whiteSpace=wrap;rounded=0;sketch=0;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="669" y="32.2" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-18" value="Home" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.leftButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;" parent="oA7r6mGgum4NCV3HxXCF-17" vertex="1">
+          <mxGeometry width="60" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-19" value="Contract" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeHeight=1;" parent="oA7r6mGgum4NCV3HxXCF-17" vertex="1">
+          <mxGeometry width="60" height="30" relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-20" value="About" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;" parent="oA7r6mGgum4NCV3HxXCF-17" vertex="1">
+          <mxGeometry x="1" width="60" height="30" relative="1" as="geometry">
+            <mxPoint x="-60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-24" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="550" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-25" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-24" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-27" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="550" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-28" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-27" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="760" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-30" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-29" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="760" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-32" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-31" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Dark card title&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card&#39;s content." style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#6C767D;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#212529;verticalAlign=bottom;align=left;spacing=20;spacingBottom=0;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="760" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-34" value="Header" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#F7F7F7;strokeColor=#6C767D;fontColor=#6C767D;resizeWidth=1;fontSize=18;align=left;spacing=20;" parent="oA7r6mGgum4NCV3HxXCF-33" vertex="1">
+          <mxGeometry width="250" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-35" value="大家都在搜" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#CED4DA;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#7D868C;align=left;spacingLeft=0;spacing=15;fontSize=14;rounded=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="32.2" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oA7r6mGgum4NCV3HxXCF-36" value="搜索" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rightButton;strokeColor=inherit;gradientColor=inherit;fontColor=inherit;fillColor=#E9ECEF;rSize=5;perimeter=none;whiteSpace=wrap;resizeHeight=1;fontSize=14;" parent="oA7r6mGgum4NCV3HxXCF-35" vertex="1">
+          <mxGeometry x="1" width="70" height="30" relative="1" as="geometry">
+            <mxPoint x="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
